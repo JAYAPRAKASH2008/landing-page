@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+:root {
+    --black-color: black;
+    --white-color: white;
+    --blue-color: rgb(54, 54, 255);
+    --transition: .3s;
+}
+
+.Home {
+    background-image: url(Image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top left;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+
+}
+
+.navbar button {
+    width: 200px;
+    background-color: transparent;
+    color: var(--white-color);
+    padding: 22px;
+    font-size: 1rem;
+    border: 1px solid var(--white-color)
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 12%;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 50px;
+    padding: 10% 12%;
+}
+
+.content h1 {
+    font-size: 3.8rem;
+}
+
+p {
+    opacity: .6;
+    font-size: 1.3rem;
+}
+
+.content_last a {
+    font-size: 1.3rem;
+    color: var(--black-color);
+    transition: var(--transition);
+    text-decoration: underline;
+}
+
+.content_last a:hover {
+    color: var(--blue-color);
+    transform: translateY(-2px);
+}
+
+.content_last button:hover {
+    width: 200px;
+    color: var(--blue-color);
+    background-color: var(--white-color);
+    padding: 20px;
+    font-size: 1rem;
+    transform: translateY(-2px);
+}
+
+.content_last button {
+    width: 200px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 20px;
+    border: 2px solid var(--blue-color);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.icon i {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+
+}
+
+.content div {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+/* BRAND PAGE*/
+.BrandPage {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.BrandPage h1 {
+    opacity: .6;
+    font-weight: 100;
+}
+
+.brands {
+    margin-top: 30px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.img_content {
+    width: 80px;
+}
+
+.brands img {
+    opacity: .6;
+    transition: var(--transition);
+
+}
+
+.brands img:hover {
+    opacity: 1.5;
+}
+
+/* BENIFIT PAGE*/
+.BenifitPage {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 5% 12%;
+    align-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    gap: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 70%;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.header h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.benifit_1 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    background-color: var(--white-color);
+    padding: 30px;
+    gap: 20px;
+    border-radius: 5%;
+}
+
+.box1 i {
+    font-size: 2rem;
+    color: var(--blue-color);
+}
+
+.box1 h3 {
+    font-weight: 600;
+}
+
+/*Perfect Dashboard*/
+.image {
+    width: 400px;
+}
+
+.Perfect_Dashboard {
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn1 {
+    width: 200px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 20px;
+    border: 2px solid var(--blue-color);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.btn1:hover {
+    width: 200px;
+    color: var(--blue-color);
+    background-color: var(--white-color);
+    padding: 20px;
+    font-size: 1rem;
+    transform: translateY(-2px);
+}
+
+.btn2:hover {
+    width: 200px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 20px;
+    font-size: 1rem;
+    transform: translateY(-2px);
+}
+
+.btn2 {
+    width: 200px;
+    color: var(--blue-color);
+    background-color: var(--white-color);
+    padding: 20px;
+    border: 2px solid var(--blue-color);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.Dashboard_content {
+    width: 45%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.dash_button {
+    display: flex;
+    gap: 30px;
+}
+
+.Dashboard_content h1 {
+    font-size: 3.2rem;
+}
+/*JOIN PAGE*/
+.join_page{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    background-color: whitesmoke;
+}
+.join_page h1{
+    font-size: 3.2rem;
+}
+
+.inputs{
+ margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+input{
+      padding: 20px;
+      width: 200px;
+      outline-color: var(--blue-color);
+      font-size: 1rem;
+}
+
+.join:hover {
+    width: 200px;
+    color: var(--blue-color);
+    background-color: var(--white-color);
+    padding: 20px;
+    font-size: 1rem;
+    transform: translateY(-2px);
+}
+
+ .join  {
+    width: 200px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 20px;
+    border: 2px solid var(--blue-color);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px; ;
+}
+.contactus p{
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.last_line{
+    background-color:black;
+    opacity: 1;
+    color:white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
